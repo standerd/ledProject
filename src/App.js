@@ -32,7 +32,8 @@ function ledOn (e){
   data.append("password", "password123");
 
   fetch(
-    "http://192.168.88.130:88/login",
+    //"http://192.168.88.130:88/login",
+    "http://b4a00cd25633.sn.mynetname.net:88/login",
     {
       method:"POST",
       body: data
