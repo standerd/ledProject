@@ -46,21 +46,6 @@ function ledOn (e){
     });
 };
 
-function ledOff (e){
-
-  fetch(
-    "http://192.168.88.130:88/login?username=Lourika&password=password123",
-    {
-      method:"POST"
-    }
-  )
-    .then(resData => {
-      console.log(resData);
-    })
-    .catch(err => {
-      console.log(err);
-    });
-};
 
   return (
     <div className="App">
