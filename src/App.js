@@ -41,6 +41,7 @@ function ledOn (e){
   )
     .then(resData => {
       console.log(resData);
+      console.log("Sent");
     })
     .catch(err => {
       
